@@ -58,17 +58,12 @@ public class Runner {
 
 /*Your code*/
 
-public class SortBinaryArray{	
+public class Solution{  
 
-	public static void sortBinaryArray(int[] arr){
-		/* Your class should be named SortBinaryArray.
-		 * Don't write main().
-     		 * Don't read input, it is passed as function argument.
-     		 * Update in the given array itself. Don't return or print anything.
-     		 * Taking input and printing output is handled automatically.
-                 */
-        
-        int i, j, k;
+    public static void sortZeroesAndOne(int[] arr) {
+        //Your code goes here
+	
+           int i, j, k;
         int n=arr.length;
     i=0;j=n-1;
     while(i<j)
@@ -83,5 +78,6 @@ public class SortBinaryArray{
         }
     }
 
-	}
+	
+    }
 }
